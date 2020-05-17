@@ -3,4 +3,4 @@
 I used HTML local storage.
 
 # How to run:
-open up the to-do.html file in your browser.
+Open up the to-do.html file in your browser.
