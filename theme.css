@@ -1,0 +1,118 @@
+html { height: 100%; }
+body {background-image: linear-gradient(#22AAA1, #136F63, #041B15);}
+
+@font-face {
+	src: local("PT Sans"), url(<link href="https://fonts.google.com/specimen/PT+Sans?sort=popularity&preview.text=Hello&preview.text_type=custom" rel="stylesheet">) format("stylesheet");
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+#todobody{
+	margin :  20px auto;
+	color : white;
+	font-family : "PT Sans";
+}
+
+#todo{
+	padding : 5px 0;
+	font-family : "PT Sans";
+	font-size : 24px;
+	color : black;
+}
+
+#todolist{
+	margin :15px;
+	padding : 0px 0;
+	font-family: "PT Sans";
+	font-size :1.1em;
+}
+
+#todolist li{
+	margin-bottom :5px;
+	line-height :1.3em;
+	border-bottom :1px dashed #949494;
+	padding-top :10px;
+	padding-bottom :10px;
+}
+
+#donebody{
+	margin :  20px auto;
+	color : white;
+	font-family : "PT Sans";
+}
+
+#done{
+	padding : 5px 0;
+	font-family : "PT Sans";
+	font-size : 24px;
+	color : black;
+}
+
+#donelist{
+	margin :15px;
+	padding : 0px 0;
+	font-family: "PT Sans";
+	font-size :1.1em;
+}
+
+#donelist li{
+	margin-bottom :5px;
+	line-height :1.3em;
+	border-bottom :1px dashed #949494;
+	padding-top :10px;
+	padding-bottom :10px;
+}
+
+#add {
+	font-family :"PT Sans";
+	text-transform: uppercase;
+	color : white;
+	font-size : 1.1em;
+	padding :7px 7px;
+	background : #949494;
+	border-radius: 10px;
+	border :0;
+	margin-top : 10px;
+	cursor : pointer;
+}
+
+.done {
+	cursor : pointer;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.searchBox {
+    margin: 0 auto;
+    width: 310px;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+h1 {
+	font-family: "PT Sans";
+	font-size :2.5em;
+	color: white;
+	text-align: center;
+}
+#container {
+	width: 575px;
+	margin: 0 auto;
+}
+/*li::first-letter {
+	font-size :150%;
+}*/
